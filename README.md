@@ -1,2 +1,3 @@
 # Bintang
-Isi data diri Bintang 
+Tugas Pemograman Berbasis Web Bintang
+

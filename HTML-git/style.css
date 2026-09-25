@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #6a5acd, #8a2be2);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6a5acd;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #6a5acd;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    margin-bottom: 12px;
+}
+
+b {
+    color: #5d48bc;
+}
+
+ul,
+ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #6a5acd;
+    color: white;
+}
+
+tr:hover {
+    background: #f0edff;
+}
+
+img {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: #6a5acd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #8a2be2;
+    text-decoration: underline;
+}
+
+section ul li a {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    main {
+        padding: 0 10px;
+    }
+    section {
+        padding: 18px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
